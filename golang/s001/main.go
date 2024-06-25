@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	fmt.Printf("changes done in the source")
 	fmt.Printf(
 		"Hello world from %s/%s\n",
 		runtime.GOOS,
